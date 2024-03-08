@@ -38,15 +38,15 @@ grafana:
   version: 7.5.5
   # builtin
   url: "http://grafana.monitoring.svc:80"
-  apikey: "eyJrIjoia3ZCdDNvS05rZzZWZlRLb3Q2NjV1QlJhbjJ2cFBGNWgiLCJuIjoidGVzdCIsImlkIjoxfQ=="
+  apikey: ""
 
   # operator
 #  url: "http://prometheus-grafana.monitoring.svc:80"
-#  apikey: "eyJrIjoiZmQ0NEJCUXNzWURZbWhNaXd6MkdJV0xmRzQ0VWlSRWEiLCJuIjoic2RmIiwiaWQiOjF9"
+#  apikey: ""
 
 app:
   name: sample
   namespace: demo
 
 
-# curl -H "Authorization: Bearer eyJrIjoiQTQ5NEM5MDI0OUR6TnEyNU1wSElvUFdxcHFXZDR6SVkiLCJuIjoiYXJub2IiLCJpZCI6MX0=" http://localhost:9091/api/dashboards/home
+# curl -H "Authorization: Bearer " http://localhost:9091/api/dashboards/home
